@@ -1,0 +1,58 @@
+[
+            {
+                "day": 1,
+                "breakfast": "Oats porridge with banana and almonds",
+                "midMorning": "Apple with handful of roasted peanuts",
+                "lunch": "2 whole wheat rotis, dal, mixed vegetable sabzi, salad",
+                "evening": "Green tea with roasted makhana",
+                "dinner": "Vegetable khichdi with curd"
+            },
+            {
+                "day": 2,
+                "breakfast": "Vegetable poha with peanuts and lemon",
+                "midMorning": "Papaya bowl",
+                "lunch": "Brown rice, rajma curry, cucumber salad",
+                "evening": "Buttermilk with roasted chana",
+                "dinner": "Paneer bhurji with 2 multigrain rotis"
+            },
+            {
+                "day": 3,
+                "breakfast": "2 boiled eggs with whole wheat toast",
+                "midMorning": "Orange juice (fresh) with walnuts",
+                "lunch": "Quinoa pulao with mixed vegetables",
+                "evening": "Sprouts chaat",
+                "dinner": "Grilled chicken/tofu with sautéed vegetables"
+            },
+            {
+                "day": 4,
+                "breakfast": "Vegetable upma with coconut chutney",
+                "midMorning": "Banana with almonds",
+                "lunch": "2 rotis, chole curry, carrot salad",
+                "evening": "Green tea with roasted peanuts",
+                "dinner": "Vegetable soup with paneer cubes"
+            },
+            {
+                "day": 5,
+                "breakfast": "Smoothie (milk, oats, banana, peanut butter)",
+                "midMorning": "Guava slices",
+                "lunch": "Vegetable pulao with curd",
+                "evening": "Corn chaat with lemon",
+                "dinner": "Dal, 2 rotis, mixed vegetable sabzi"
+            },
+            {
+                "day": 6,
+                "breakfast": "Idli with sambar and coconut chutney",
+                "midMorning": "Watermelon bowl",
+                "lunch": "Brown rice, fish curry/tofu curry",
+                "evening": "Buttermilk with roasted makhana",
+                "dinner": "Vegetable omelette/tofu scramble with salad"
+            },
+            {
+                "day": 7,
+                "breakfast": "Stuffed vegetable paratha with curd",
+                "midMorning": "Mixed fruit bowl",
+                "lunch": "2 rotis, dal tadka, bhindi sabzi",
+                "evening": "Green tea with nuts mix",
+                "dinner": "Light vegetable soup with quinoa salad"
+            }
+        ]

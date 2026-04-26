@@ -6,10 +6,11 @@ import DietSection from "../../components/diet/DietSection"
 import DietCardList from "../../components/diet/DietCardList"
 import Navbar from '@/src/components/global/Navbar';
 import { Loader } from 'lucide-react';
+import dietDataJson from "../../data/dietData.json"
 
 function Page() { // Capitalized component name (Best practice)
-    const [loading, setLoading] = useState(false);
-    const [dietData, setDietData] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [dietData, setDietData] = useState(dietDataJson);
     const { data: session } = useSession();
 
     async function getDietData() {
@@ -34,11 +35,14 @@ function Page() { // Capitalized component name (Best practice)
         }
     }
 
-    useEffect(() => {
-        if (session?.user?.email) getDietData();
-    }, [session?.user?.email]);
+    // useEffect(() => {
+    //     if (session?.user?.email){
+    //         setDietData(dietDataJson)
+    //         console.log(dietDataJson)
+    //     }
+    // }, [session?.user?.email]);
 
-    if (loading) return <div className="text-white p-10">Loading your plan...</div>;
+    // if (loading) return <div className="text-white p-10">Loading your plan...</div>;
 
     return (
         <>
@@ -46,9 +50,9 @@ function Page() { // Capitalized component name (Best practice)
             <div className="mt-20">
                 
                 {
-                    dietData && dietData.length>0?
+                    dietDataJson && dietDataJson.length>0?
                     <>
-                        {dietData.map((dietDay, index) => (
+                        {dietDataJson.map((dietDay, index) => (
                             <DietSection key={index} title={dietDay.day}>
                                 <DietCardList>
                                     {Object.keys(dietDay).map((key, i) => {
