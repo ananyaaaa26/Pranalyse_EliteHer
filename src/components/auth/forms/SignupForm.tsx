@@ -170,7 +170,7 @@ export function SignupForm({ onSuccess, onLoginClick }: any) {
         Already have an account?{" "}
         <span
           onClick={()=>{
-            router.push("/login")
+            router.push("/auth/login")
           }}
           className="text-[#886AC9] cursor-pointer hover:underline"
         >
