@@ -17,16 +17,16 @@ function Page() { // Capitalized component name (Best practice)
         setLoading(true);
 
         try {
-            const body = JSON.stringify({ userEmail: session.user.email });
-            const response = await fetch("http://localhost:3010/users/plan", {
-                method: "POST",
-                body: body,
-                headers: { "Content-Type": "application/json" },
-            });
+            // const body = JSON.stringify({ userEmail: session.user.email });
+            // const response = await fetch("http://localhost:3010/users/plan", {
+            //     method: "POST",
+            //     body: body,
+            //     headers: { "Content-Type": "application/json" },
+            // });
 
-            const jsonData = await response.json();
-            // Ensure the path matches your API response structure
-            setDietData(jsonData.dietRecommendation.sevenDayDietPlan);
+            // const jsonData = await response.json();
+            // // Ensure the path matches your API response structure
+            // setDietData(jsonData.dietRecommendation.sevenDayDietPlan);
         } catch (error) {
             console.error("Failed to fetch diet data:", error);
         } finally {

@@ -19,22 +19,22 @@ export default function Heading() {
     const body= JSON.stringify({userEmail: session?.user?.email, ...answers})// Now sending camelCase keys!
     console.log(body);
     try {
-      const response = await fetch(`http://localhost:3010/users/`, {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: body
-      });
+      // const response = await fetch(`http://localhost:3010/users/`, {
+      //   method: "PUT",
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //   },
+      //   body: body
+      // });
 
-      const data = await response.json();
+      // const data = await response.json();
 
-      if (response.ok) {
-        alert("Profile updated and plans generated successfully!");
-        console.log(data);
-      } else {
-        alert(`Error: ${data.message || "Failed to update"}`);
-      }
+      // if (response.ok) {
+      //   alert("Profile updated and plans generated successfully!");
+      //   console.log(data);
+      // } else {
+      //   alert(`Error: ${data.message || "Failed to update"}`);
+      // }
     } catch (error) {
       console.error("Save Error:", error);
       alert("Failed to reach server.");
