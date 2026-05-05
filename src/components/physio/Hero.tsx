@@ -114,9 +114,9 @@ export default function Hero() {
         </div>
 
         {/* P6 - bottom center */}
-        {/* <div className="absolute -bottom-22 left-1/2 -translate-x-1/2">
-          <Image src="/physio/p6.png" alt="P6" width={500} height={500} />
-        </div> */}
+        <div className="absolute -bottom-22 left-1/2 -translate-x-1/2">
+          <Image src="/physio/P6.png" alt="P6" width={500} height={500} />
+        </div>
       </div>
     </section>
     <Options/>
