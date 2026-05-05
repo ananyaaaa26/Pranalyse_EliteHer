@@ -13,7 +13,8 @@ export default function AuthLeftPanel() {
         <h1 className="text-3xl font-bold mb-8 mt-4">Welcome to</h1>
 
         <div className="mb-8 flex justify-center">
-          <Image src="/auth/logo.png" alt="Logo" width={160} height={80} />
+          {/* <Image src="/auth/logo.png" alt="Logo" width={160} height={80} /> */}
+          <img src="/auth/logo.png" alt="Logo" className="h-44 w-44" />
         </div>
 
         <p className="text-xs leading-tight">
