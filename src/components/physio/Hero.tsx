@@ -90,27 +90,27 @@ export default function Hero() {
       <div className="absolute w-full h-full">
         {/* P1 - top left */}
         <div className="absolute top-10 left-4">
-          <Image src="/physio/p1.png" alt="P1" width={220} height={220} className="animate-particleAssemble" style={{ animationDelay: "0.5s" }} />
+          <Image src="/physio/P1.png" alt="P1" width={220} height={220} className="animate-particleAssemble" style={{ animationDelay: "0.5s" }} />
         </div>
 
         {/* P2 - top center */}
         <div className="absolute top-16 left-1/2 -translate-x-1/2">
-          <Image src="/physio/p2.png" alt="P2" width={400} height={400} className="animate-particleAssemble" style={{ animationDelay: "1s" }}/>
+          <Image src="/physio/P2.png" alt="P2" width={400} height={400} className="animate-particleAssemble" style={{ animationDelay: "1s" }}/>
         </div>
 
         {/* P3 - top right */}
         <div className="absolute top-10 right-0">
-          <Image src="/physio/p3.png" alt="P3" width={240} height={240} className="animate-particleAssemble" style={{ animationDelay: "1.5s" }}/>
+          <Image src="/physio/P3.png" alt="P3" width={240} height={240} className="animate-particleAssemble" style={{ animationDelay: "1.5s" }}/>
         </div>
 
         {/* P4 - bottom right */}
         <div className="absolute bottom-36 right-36">
-          <Image src="/physio/p4.png" alt="P4" width={280} height={280} className="animate-particleAssemble" style={{ animationDelay: "0.5s" }}/>
+          <Image src="/physio/P4.png" alt="P4" width={280} height={280} className="animate-particleAssemble" style={{ animationDelay: "0.5s" }}/>
         </div>
 
         {/* P5 - bottom left */}
         <div className="absolute bottom-36 left-40">
-          <Image src="/physio/p5.png" alt="P5" width={240} height={240} className="animate-particleAssemble" style={{ animationDelay: "1s" }}/>
+          <Image src="/physio/P5.png" alt="P5" width={240} height={240} className="animate-particleAssemble" style={{ animationDelay: "1s" }}/>
         </div>
 
         {/* P6 - bottom center */}
